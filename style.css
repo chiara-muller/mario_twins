@@ -1,3 +1,9 @@
+#title {
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    font-size: xx-large;
+}
+
 div {
     box-sizing: border-box;
 }
@@ -5,10 +11,10 @@ div {
 .main_container {
     position: relative;
     height: 600px;
-    width: 900px;
+    width: 1000px;
     margin: 0;
     margin-left: 50%;
-    left: -450px;
+    transform: translateX(-50%);
 }
 
 .sub_container {
@@ -16,5 +22,13 @@ div {
     border: 1px solid black;
     width: 150px;
     height: 200px;
-    margin: 0;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_recto {
+    width: 65%;
+    
 }
