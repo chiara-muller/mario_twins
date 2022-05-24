@@ -19,7 +19,6 @@ div {
 
 .sub_container {
     float:left;
-    border: 1px solid black;
     width: 150px;
     height: 200px;
     margin: 5px;
@@ -28,7 +27,20 @@ div {
     align-items: center;
 }
 
-.img_recto {
-    width: 65%;
-    
+.sub_container:hover .img-recto{
+    display: block;
 }
+
+.sub_container:hover .img-verso{
+    display: none;
+}
+
+.img-recto, .img-verso {
+    width: 100%;
+    border: 1px solid black; 
+}
+
+.img-recto {
+    display: none;
+}
+
