@@ -1,0 +1,20 @@
+const cards = [img-recto-1,
+    img-recto-2,
+    img-recto-3,
+    img-recto-4,
+    img-recto-5,
+    img-recto-6,
+    img-recto-7,
+    img-recto-8,
+    img-recto-9,
+    img-recto-1,
+    img-recto-2,
+    img-recto-3,
+    img-recto-4,
+    img-recto-5,
+    img-recto-6,
+    img-recto-7,
+    img-recto-8,
+    img-recto-9
+];
+
