@@ -8,7 +8,7 @@ div {
     box-sizing: border-box;
 }
 
-.main_container {
+.main-container {
     position: relative;
     height: 600px;
     width: 1000px;
@@ -17,7 +17,7 @@ div {
     transform: translateX(-50%);
 }
 
-.sub_container {
+.sub-container {
     float:left;
     width: 150px;
     height: 200px;
@@ -27,14 +27,14 @@ div {
     align-items: center;
 }
 
-.sub_container:hover .img-recto{
+/* .sub-container:hover .img-recto{
     display: block;
 }
 
-.sub_container:hover .img-verso{
+.sub-container:hover .img-verso{
     display: none;
 }
-
+*/
 .img-recto, .img-verso {
     width: 100%;
     border: 1px solid black; 
